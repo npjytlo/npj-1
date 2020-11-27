@@ -538,10 +538,10 @@ h1 sup {
 }
 
 .news-date {
-	padding: 10px 20px;
+	padding: 1px 10px;
 	background-color: #39e241;
-	width: 110px;
-	height: 110px;
+	width: 80px;
+	height: 80px;
 	color: #fff;
 	float: left;
 	overflow: hidden;
