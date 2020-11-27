@@ -37,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0 0 15px;
+	margin: 15px 0;
 	font-weight: 700;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -137,7 +137,7 @@ header .navbar {
 }
 
 .home-text h1 {
-	font-size: 7vw;
+	font-size: 115px;
 	color: #fff;
 	font-weight: 500;
 
@@ -195,7 +195,7 @@ header .navbar {
 /*.section-heading {}*/
 
 .section-heading h2 {
-	font-size: 7vw;
+	font-size: 115px;
 	font-weight: normal;
 	color: rgb(0, 0, 0);
 }
