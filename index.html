@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,117 +15,119 @@
 	<link rel="stylesheet" href="css/prettyPhoto.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
-	<link rel="icon" href="img/logo.png"/>
+	<link rel="icon" href="img/logo.png" />
 
 </head>
+
 <body>
-<header>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
+	<header>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!--<a class="navbar-brand" href="#"><img src="img/logo1.png" alt=""></a>-->
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active smooth-scroll"><a href="#home">НОВОПСКОВЖИТЛО</a></li>
+						<li class="smooth-scroll"><a href="#news">Новини</a></li>
+						<li class="smooth-scroll"><a href="#grafik">Графік</a></li>
+						<li class="smooth-scroll"><a href="#service">Послуги</a></li>
+						<li class="smooth-scroll"><a href="#price">Ціни</a></li>
+						<li class="smooth-scroll"><a href="#gallery">Галерея</a></li>
+						<li class="smooth-scroll"><a href="#team">Керівники</a></li>
+						<li class="smooth-scroll"><a href="#contact">Контакти</a></li>
+						<li class="smooth-scroll"><a href="tel:+380661799362"><i
+									class="fa fa-phone"></i>+380661799362</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!--Home Section-->
+	<section id="home">
+		<div class="overlay"></div>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!--Indicator-->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 wow bounceInUp">
+								<div class="home-text text-center">
+									<h1>"НОВОПСКОВЖИТЛО"<br><span>КОМУНАЛЬНЕ ПІДПРИЄМСТВО</span></h1>
+
+									<h3></h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 wow bounceInUp">
+								<div class="home-text text-center">
+									<h1>"НОВОПСКОВЖИТЛО"<br><span>ПОВОДЖЕННЯ З ВІДХОДАМИ</span></h1>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 wow bounceInUp">
+								<div class="home-text text-center">
+									<h1>"НОВОПСКОВЖИТЛО"<br><span>Будівельні роботи</span></h1>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12 wow bounceInUp">
+								<div class="home-text text-center">
+									<h1>"НОВОПСКОВЖИТЛО"<br><span>ТРАНСПОРТНІ ПОСЛУГИ</span></h1>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+	<!--our news area-->
+	<section id="news">
+		<div class="section-heading news-heading text-center text-uppercase wow swing">
+			<h2>НОВОПСКОВЖИТЛО <span>News</span></h2>
+		</div>
 		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<!--<a class="navbar-brand" href="#"><img src="img/logo1.png" alt=""></a>-->
-			</div>
-			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="active smooth-scroll"><a href="#home">НОВОПСКОВЖИТЛО</a></li>
-					<li class="smooth-scroll"><a href="#news">Новини</a></li>
-					<li class="smooth-scroll"><a href="#grafik">Графік</a></li>
-					<li class="smooth-scroll"><a href="#service">Послуги</a></li>
-					<li class="smooth-scroll"><a href="#price">Ціни</a></li>
-					<li class="smooth-scroll"><a href="#gallery">Галерея</a></li>
-					<li class="smooth-scroll"><a href="#team">Керівники</a></li>
-					<li class="smooth-scroll"><a href="#contact">Контакти</a></li>
-					<li class="smooth-scroll"><a href="tel:+380661799362"><i class="fa fa-phone"></i>+380661799362</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-</header>
+			<div class="row no-gutter">
+				<div class="col-md-7 col-md-offset-1">
 
-<!--Home Section-->
-<section id="home">
-	<div class="overlay"></div>
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-		<!--Indicator-->
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#myCarousel" data-slide-to="1"></li>
-			<li data-target="#myCarousel" data-slide-to="2"></li>
-			<li data-target="#myCarousel" data-slide-to="3"></li>
-		</ol>
-		<div class="carousel-inner" role="listbox">
-			<div class="item active">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 wow bounceInUp">
-							<div class="home-text text-center">
-								<h1>"НОВОПСКОВЖИТЛО"<br><span>КОМУНАЛЬНЕ ПІДПРИЄМСТВО</span></h1>
+					<div class="latest-news">
 
-								<h3></h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 wow bounceInUp">
-							<div class="home-text text-center">
-								<h1>"НОВОПСКОВЖИТЛО"<br><span>ПОВОДЖЕННЯ З ВІДХОДАМИ</span></h1>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 wow bounceInUp">
-							<div class="home-text text-center">
-								<h1>"НОВОПСКОВЖИТЛО"<br><span>Будівельні роботи</span></h1>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="item">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 wow bounceInUp">
-							<div class="home-text text-center">
-								<h1>"НОВОПСКОВЖИТЛО"<br><span>ТРАНСПОРТНІ ПОСЛУГИ</span></h1>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-
-	</div>
-
-</section>
-<!--our news area-->
-<section id="news">
-	<div class="section-heading news-heading text-center text-uppercase wow swing">
-		<h2>НОВОПСКОВЖИТЛО <span>News</span></h2>
-	</div>
-	<div class="container">
-		<div class="row no-gutter">
-			<div class="col-md-7 col-md-offset-1">
-
-				<div class="latest-news">
-
-					<!-- 
+						<!-- 
 						<h1>січень-2022</h1>
 
 					<div class="news-content  wow bounceInLeft">
@@ -196,7 +199,7 @@
 						</div>
 					</div>
 				-->
-				<!-- 
+						<!-- 
 					<h1>лютий-2022</h1>
 
 					<div class="news-content  wow bounceInLeft">
@@ -268,7 +271,7 @@
 						</div>
 					</div>
 				 -->
-				 <!-- 
+						<!-- 
 					 <h1>березень-2022</h1>
 
 					<div class="news-content  wow bounceInLeft">
@@ -372,7 +375,7 @@
 						</div>
 					</div>
 				  -->
-<!-- 
+						<!-- 
 					<h1>квітень-2022</h1>
 
 					<div class="news-content  wow bounceInLeft">
@@ -454,7 +457,7 @@
 						</div>
 					</div> 
 				-->
-				<!-- <h1>травень-2021</h1>
+						<!-- <h1>травень-2021</h1>
 
 					<div class="news-content  wow bounceInLeft">
 						<div class="news-date">
@@ -534,7 +537,7 @@
 
 						</div>
 					</div> -->
-					
+						<!-- 					
 						<h1>червень-2021</h1>
 
 					<div class="news-content  wow bounceInLeft">
@@ -606,63 +609,63 @@
 
 						</div>
 					</div>
-					
-					 <!-- 
-							<h1>липень-2021</h1>
+					 -->
 
-					<div class="news-content  wow bounceInLeft">
-						<div class="news-date">
-							<h1>1</h1>
-						</div>
-						<div class="news-text">
-							<h5>День  архітектури  України</h5>
+						<h1>липень-2021</h1>
 
-						</div>
-					</div>
-					<div class="news-content wow bounceInLeft">
-						<div class="news-date">
-							<h1>4</h1>
-							
-						</div>
-						<div class="news-text">
-							<h5>День Національної поліції України</h5>
+						<div class="news-content  wow bounceInLeft">
+							<div class="news-date">
+								<h1>1</h1>
+							</div>
+							<div class="news-text">
+								<h5>День архітектури України</h5>
 
+							</div>
 						</div>
-					</div>
+						<div class="news-content wow bounceInLeft">
+							<div class="news-date">
+								<h1>4</h1>
 
-					<div class="news-content  wow bounceInLeft">
-						<div class="news-date">
-							<h1>11</h1>
-						</div>
-						<div class="news-text">
-							<h5>День рибалки</h5>
+							</div>
+							<div class="news-text">
+								<h5>День Національної поліції України</h5>
 
+							</div>
 						</div>
-					</div>
 
-					<div class="news-content  wow bounceInLeft">
-						<div class="news-date">
-							<h1>16</h1>
-						</div>
-						<div class="news-text">
-							<h5>День бухгалтера</h5>
+						<div class="news-content  wow bounceInLeft">
+							<div class="news-date">
+								<h1>11</h1>
+							</div>
+							<div class="news-text">
+								<h5>День рибалки</h5>
 
+							</div>
 						</div>
-					</div>
-					
 
-					<div class="news-content wow bounceInLeft">
-						<div class="news-date">
-							<h1>25</h1>
-							
-						</div>
-						<div class="news-text">
-							<h5>День працівників торгівлі</h5>
+						<div class="news-content  wow bounceInLeft">
+							<div class="news-date">
+								<h1>16</h1>
+							</div>
+							<div class="news-text">
+								<h5>День бухгалтера</h5>
 
+							</div>
 						</div>
-					</div>
-					  -->
-					  <!-- 
+
+
+						<div class="news-content wow bounceInLeft">
+							<div class="news-date">
+								<h1>25</h1>
+
+							</div>
+							<div class="news-text">
+								<h5>День працівників торгівлі</h5>
+
+							</div>
+						</div>
+
+						<!-- 
 						  <h1>серпень-2021</h1>
 
 					<div class="news-content  wow bounceInLeft">
@@ -738,7 +741,7 @@
 						</div>
 					</div>
 					   -->
-					   <!-- 
+						<!-- 
 						    <h1>вересень-2021</h1>
 
 					<div class="news-content  wow bounceInLeft">
@@ -978,7 +981,7 @@
 						</div>
 					</div>
 						 -->
-						 <!-- 
+						<!-- 
 							 <h1>листопад-2021</h1>
 
 					<div class="news-content  wow bounceInLeft">
@@ -1076,7 +1079,7 @@
 						</div>
 					</div>
 						  -->
-						  <!-- 
+						<!-- 
 							<h1>грудень-2021</h1>
 
 					<div class="news-content  wow bounceInLeft">
@@ -1216,541 +1219,587 @@
 					</div>
 
 						   -->
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-12">
-				<div id="grafik" class="news-list">
-
-					<div class="single-news">
-						<h5>ГРАФІК ВИВЕЗЕННЯ<br>ПОБУТОВИХ ВІДХОДІВ</h5>
-						<div class="list-date">
-							<h4>Пн</h4>
-							<h4></h4>
-						</div>
-						<div class="list-text">
-							<a href="#"><h5>Вулиці:</h5></a>
-
-							<p>кв.Тепличний, Новорозсошанська, Горького, Українська, Виноградна, Санаторна, пров.Степний, Магістральна, Айдарська, Автовокзал, Жеребілова, пров.Сосновий</p>
-						</div>
-					</div>
-					<div class="single-news">
-						<div class="list-date">
-							<h4>Вт</h4>
-							<h4></h4>
-						</div>
-						<div class="list-text">
-							<a href="#"><h5>Вулиці:</h5></a>
-
-							<p>Садова, Зарічна, Б.Хмельницького, Автовокзал, Айдарська, Гагаріна, 8 Березня, Джерельна, Декабристів, пров.Тихий, Урожайна, Первомайська, Весняна</p>
-						</div>
-					</div>
-					<div class="single-news">
-						<div class="list-date">
-							<h4>Ср</h4>
-							<h4></h4>
-						</div>
-						<div class="list-text">
-							<a href="#"><h5>Вулиці:</h5></a>
-
-							<p>кв.Тепличний, Слобожанська, Ювілейна, Ватутіна, Молодіжна, Магістральна, Шморгуна, Зоряна, Шкільна, Озерна, Б.Хмельницького, Українська, Автовокзал, Айдарська</p>
-						</div>
-					</div>
-					<div class="single-news">
-						<div class="list-date">
-							<h4>Чт</h4>
-							<h4></h4>
-						</div>
-						<div class="list-text">
-							<a href="#"><h5>Вулиці:</h5></a>
-
-							<p>Магістральна, Кооперативна, Затишна, Вишнева, Прикам'янська, пров.Мельничний, Жеребілова,  Автовокзал, Українська-15, Айдарська, Заайдарівка</p>
-						</div>
-					</div>
-					<div class="single-news">
-						<div class="list-date">
-							<h4>Пт</h4>
-							<h4></h4>
-						</div>
-						<div class="list-text">
-							<a href="#"><h5>Вулиці:</h5></a>
-
-							<p>кв.Тепличний, Шкільна, Слобожанська, Шевченко, Приозерна, Айдарська, 8 Березня, Закарпатська, Луганська, Джерельна, Поштова, Весняна, Миру, Декабристів, пров.Тихий, Первомайська, Партизанська, Приватбанк, Садова</p>
-						</div>
-					</div>
-					<div class="single-news">
-						<div class="list-date">
-							<h4>Сб</h4>
-							<h4></h4>
-						</div>
-						<div class="list-text">
-							<a href="#"><br><h5>ВИХІДНИЙ<br><br><br></h5></a>
-							<p></p>
-						</div>
-					</div>
-					<div class="single-news">
-						<div class="list-date">
-							<h4>Нед</h4>
-							<h4></h4>
-						</div>
-						<div class="list-text">
-							<a href="#"><h5>Вулиці:</h5></a>
-
-							<p>кв.Тепличний, Газопроводська, Магістральна, Озерна,  Автовокзал, Українська-15,  Б.Хмельницького, Ювілейна</p>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--SERVICES AREA-->
-<section id="service">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12  wow bounce">
-				<div class="section-heading text-center text-uppercase  wow bounceInUp">
-					<h2> <span>ПОСЛУГИ</span></h2>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-6 col-md-3  wow bounceIn">
-				<div class="single-item text-center">
-					<i class="fa fa-exclamation-triangle"></i>
-					<h4 class="text-uppercase">Поводження з відходами</h4>
-					<p>Вивезення побутових відходів</p>
-					<a href="#gallery" class="btn btn-red text-uppercase">Далі</a>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3 wow bounceInUp">
-				<div class="single-item text-center">
-					<i class="fa fa-globe"></i>
-					<h4 class="text-uppercase">Роботи з благоустою</h4>
-
-					<p>Ландшафний дизайн.<br>Прибирання теритоій.</p>
-					<a href="#gallery" class="btn btn-red text-uppercase">Далі</a>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3 wow pulse">
-				<div class="single-item text-center">
-					<i class="fa fa-building"></i>
-					<h4 class="text-uppercase">Будівельні роботи</h4>
-
-					<p>Всі види будівельних робіт</p>
-					<a href="#gallery" class="btn btn-red text-uppercase">Далі</a>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3 wow shake">
-				<div class="single-item text-center">
-					<i class="fa fa-truck"></i>
-					<h4 class="text-uppercase">Транспортні послуги</h4>
-
-					<p>Перевезення вантажів.</p>
-					<a href="#gallery" class="btn btn-red text-uppercase">Далі</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!--our price area-->
-<section id="price">
-	<div class="container">
-		<div class="section-heading text-center text-uppercase">
-			<h2> <span>Вартість послуг</span></h2>
-			<h3> <span>за одну машино-годину</span></h3>
-		</div>
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="single-price text-center wow swing">
-					<div class="price-top">
-						<h3>АВТОГРЕЙДЕР<br>SINOMACH-713H</h3>
-						<i class="fa fa-clock-o"></i>
-
-						<h1><sup>&#8372;</sup>1057,56<sub>грн.</sub></h1>
-					</div>
-					<div class="price-bottom">
-						<p><img src="img/teh_greyder.PNG"></p>
-						
-						<a href="#gallery" class="btn text-uppercase">Галерея</a>
 					</div>
 				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="single-price text-center wow swing">
-					<div class="price-top">
-						<h3>ЕКСКАВАТОР<br>МТЗ-82.1</h3>
-						<i class="fa fa-clock-o"></i>
+				<div class="col-md-4 col-sm-12">
+					<div id="grafik" class="news-list">
 
-						<h1><sup>&#8372;</sup>440,84<sub>грн.</sub></h1>
-					</div>
-					<div class="price-bottom">
-						<p><img src="img/teh_mtz_ex.png"></p>
+						<div class="single-news">
+							<h5>ГРАФІК ВИВЕЗЕННЯ<br>ПОБУТОВИХ ВІДХОДІВ</h5>
+							<div class="list-date">
+								<h4>Пн</h4>
+								<h4></h4>
+							</div>
+							<div class="list-text">
+								<a href="#">
+									<h5>Вулиці:</h5>
+								</a>
 
-						<a href="#gallery" class="btn text-uppercase">Галерея</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="single-price text-center wow swing">
-					<div class="price-top">
-						<h3>ЕКСКАВАТОР-НАВАНТАЖУВАЧ<br>CUCUROVA-821</h3>
-						<i class="fa fa-clock-o"></i>
+								<p>кв.Тепличний, Новорозсошанська, Горького, Українська, Виноградна, Санаторна,
+									пров.Степний, Магістральна, Айдарська, Автовокзал, Жеребілова, пров.Сосновий</p>
+							</div>
+						</div>
+						<div class="single-news">
+							<div class="list-date">
+								<h4>Вт</h4>
+								<h4></h4>
+							</div>
+							<div class="list-text">
+								<a href="#">
+									<h5>Вулиці:</h5>
+								</a>
 
-						<h1><sup>&#8372;</sup>704,40<sub>грн.</sub></h1>
-					</div>
-					<div class="price-bottom">
-						<p><p><img src="img/teh_cukurova.png"></p></p>
-					
-						<a href="#gallery" class="btn text-uppercase">Галерея</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="single-price text-center wow swing">
-					<div class="price-top">
-						<h3>НАВАНТАЖУВАЧ<br>
-							АМКОДОР-342С</h3>
-						<i class="fa fa-clock-o"></i>
+								<p>Садова, Зарічна, Б.Хмельницького, Автовокзал, Айдарська, Гагаріна, 8 Березня,
+									Джерельна, Декабристів, пров.Тихий, Урожайна, Первомайська, Весняна</p>
+							</div>
+						</div>
+						<div class="single-news">
+							<div class="list-date">
+								<h4>Ср</h4>
+								<h4></h4>
+							</div>
+							<div class="list-text">
+								<a href="#">
+									<h5>Вулиці:</h5>
+								</a>
 
-						<h1><sup>&#8372;</sup>853,29<sub>грн.</sub></h1>
-					</div>
-					<div class="price-bottom">
-						<p><p><img src="img/teh_amkodor.png"></p></p>
-					
-						<a href="#gallery" class="btn text-uppercase">Галерея</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="single-price text-center wow swing">
-					<div class="price-top">
-						<h3>АВТОПІДЙОМНИК</h3>
-						<i class="fa fa-clock-o"></i>
+								<p>кв.Тепличний, Слобожанська, Ювілейна, Ватутіна, Молодіжна, Магістральна, Шморгуна,
+									Зоряна, Шкільна, Озерна, Б.Хмельницького, Українська, Автовокзал, Айдарська</p>
+							</div>
+						</div>
+						<div class="single-news">
+							<div class="list-date">
+								<h4>Чт</h4>
+								<h4></h4>
+							</div>
+							<div class="list-text">
+								<a href="#">
+									<h5>Вулиці:</h5>
+								</a>
 
-						<h1><sup>&#8372;</sup>446,03<sub>грн.</sub></h1>
-					</div>
-					<div class="price-bottom">
-						<p><p><img src="img/teh_pid.png"></p></p>
-					
-						<a href="#gallery" class="btn text-uppercase">Галерея</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="single-price text-center wow swing">
-					<div class="price-top">
-						<h3>МАЗ-САМОСКИД</h3>
-						<i class="fa fa-clock-o"></i>
+								<p>Магістральна, Кооперативна, Затишна, Вишнева, Прикам'янська, пров.Мельничний,
+									Жеребілова, Автовокзал, Українська-15, Айдарська, Заайдарівка</p>
+							</div>
+						</div>
+						<div class="single-news">
+							<div class="list-date">
+								<h4>Пт</h4>
+								<h4></h4>
+							</div>
+							<div class="list-text">
+								<a href="#">
+									<h5>Вулиці:</h5>
+								</a>
 
-						<h1><sup>&#8372;</sup>576,10<sub>грн.</sub></h1>
-					</div>
-					<div class="price-bottom">
-						<p><p><img src="img/teh_mazsam.png"></p></p>
-					
-						<a href="#gallery" class="btn text-uppercase">Галерея</a>
+								<p>кв.Тепличний, Шкільна, Слобожанська, Шевченко, Приозерна, Айдарська, 8 Березня,
+									Закарпатська, Луганська, Джерельна, Поштова, Весняна, Миру, Декабристів, пров.Тихий,
+									Первомайська, Партизанська, Приватбанк, Садова</p>
+							</div>
+						</div>
+						<div class="single-news">
+							<div class="list-date">
+								<h4>Сб</h4>
+								<h4></h4>
+							</div>
+							<div class="list-text">
+								<a href="#"><br>
+									<h5>ВИХІДНИЙ<br><br><br></h5>
+								</a>
+								<p></p>
+							</div>
+						</div>
+						<div class="single-news">
+							<div class="list-date">
+								<h4>Нед</h4>
+								<h4></h4>
+							</div>
+							<div class="list-text">
+								<a href="#">
+									<h5>Вулиці:</h5>
+								</a>
+
+								<p>кв.Тепличний, Газопроводська, Магістральна, Озерна, Автовокзал, Українська-15,
+									Б.Хмельницького, Ювілейна</p>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
-<!--gallery area-->
-<section id="gallery">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1">
-				<div class="section-heading text-center text-uppercase  wow shake">
-					<h2> <span>Галерея</span></h2>
-
-					<p title="Не кожен, сьогодні, може побачити завтрішній день!">
-						<u><i>"Nobody can look present day at the day tomorrow!"</i></u>
-				</div>
-			</div>
-
-		</div>
-
-	</div>
-	<div class="gallery-btn text-center text-uppercase">
-		<a href="#" class="active btn btn-trans" data-filter="*">ВСІ ФОТО</a>
-		<a href="#" class="btn btn-trans" data-filter=".gardens">ПАРК</a>
-		<a href="#" class="btn btn-trans" data-filter=".pavement">ТРОТУАР</a>
-		<a href="#" class="btn btn-trans" data-filter=".quarantine">КАРАНТИН</a>
-		<a href="#" class="btn btn-trans" data-filter=".roads">РЕМОНТ ДОРІГ</a>
-		<a href="#" class="btn btn-trans" data-filter=".landscaping">БЛАГОУСТРІЙ</a>
-	</div>
-	<div class="container-fluid">
-		<div class="row no-gutter">
-			<div class="gellery-item text-center">
-				<div class="single-gl roads col-md-2 col-sm-3">
-					<img src="img/gl1.jpg" alt="">
-
-					<div class="gl-overlay">
-						<div class="caption">
-							<a href="img/gl1.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
-							<a href="#"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="single-gl roads col-md-2 col-sm-3">
-					<img src="img/gl2.jpg" alt="">
-
-					<div class="gl-overlay">
-						<div class="caption">
-							<a href="img/gl2.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
-							<a href="#"><i class="fa fa-expand"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="single-gl roads col-md-2 col-sm-3">
-					<img src="img/gl3.jpg" alt="">
-
-					<div class="gl-overlay">
-						<div class="caption">
-							<a href="img/gl3.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
-							<a href="#"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="single-gl landscaping col-md-2  col-sm-3">
-					<img src="img/gl4.jpg" alt="">
-
-					<div class="gl-overlay">
-						<div class="caption">
-							<a href="img/gl4.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
-							<a href="#"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="single-gl quarantine col-md-2 col-sm-3">
-					<img src="img/gl5.jpg" alt="">
-
-					<div class="gl-overlay">
-						<div class="caption">
-							<a href="img/gl5.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
-							<a href="#"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="single-gl landscaping col-md-2 col-sm-3">
-					<img src="img/gl6.jpg" alt="">
-
-					<div class="gl-overlay">
-						<div class="caption">
-							<a href="img/gl6.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
-							<a href="#"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="single-gl quarantine col-md-2 col-sm-3">
-					<img src="img/gl7.jpg" alt="">
-
-					<div class="gl-overlay">
-						<div class="caption">
-							<a href="img/gl7.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
-							<a href="#"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="single-gl landscaping col-md-2 col-sm-3">
-					<img src="img/gl8.jpg" alt="">
-
-					<div class="gl-overlay">
-						<div class="caption">
-							<a href="img/gl8.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
-							<a href="#"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="single-gl pavement col-md-2 col-sm-3">
-					<img src="img/gl9.jpg" alt="">
-
-					<div class="gl-overlay">
-						<div class="caption">
-							<a href="img/gl9.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
-							<a href="#"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="single-gl gardens col-md-2 col-sm-3">
-					<img src="img/gl10.jpg" alt="">
-
-					<div class="gl-overlay">
-						<div class="caption">
-							<a href="img/gl10.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
-							<a href="#"><i class="fa fa-search"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-
-<!--team section-->
-<section id="team">
-	<div class="container">
-		<div class="section-heading text-center text-uppercase wow  wow bounceInRight">
-			<h2> <span>Керівники</span></h2>
-		</div>
-		<div class="row  wow bounceInLeft">
-			<div class="col-sm-6 col-md-3">
-				<div class="single-team">
-					<img src="img/team1.jpg" alt="">
-
-					<h3>Директор</h3>
-
-					<p>Деревянко Костянтин Степанович</p>
-
-					<div class="member-social-icon text-center">
-						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-facebook"></i></a>
-						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-twitter"></i></a>
-						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-linkedin"></i></a>
-						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-google-plus"></i></a>
-					</div>
-
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3">
-				<div class="single-team">
-					<img src="img/team2.jpg" alt="">
-
-					<h3>Головний Інженер</h3>
-
-					<p>Шпак Ярослав Миколайович</p>
-
-					<div class="member-social-icon text-center">
-						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-facebook"></i></a>
-						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-twitter"></i></a>
-						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-linkedin"></i></a>
-						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-google-plus"></i></a>
-					</div>
-
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3">
-				<div class="single-team">
-					<img src="img/team3.jpg" alt="">
-
-					<h3>Головний бухгалтер</h3>
-
-					<p>Янченко Ольга Петрівна</p>
-
-					<div class="member-social-icon text-center">
-						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-facebook"></i></a>
-						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-twitter"></i></a>
-						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-linkedin"></i></a>
-						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-google-plus"></i></a>
-					</div>
-
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3">
-				<div class="single-team">
-					<img src="img/team4.jpg" alt="">
-
-					<h3>Майстер</h3>
-
-					<p>Мірошниченко Ігор Степанович</p>
-
-					<div class="member-social-icon text-center">
-						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-facebook"></i></a>
-						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-twitter"></i></a>
-						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-linkedin"></i></a>
-						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-google-plus"></i></a>
-					</div>
-
-				</div>
-			</div>
-		</div>
-</section>
-
-<!--contact heading-->
-<section id="contact">
-	<div class="section-heading contact-heading text-center text-uppercase">
-		<h2><span>Контакти</span></h2>
-		<h5><span>Україна, Луганська обл, смт.Новопсков, вул.Магістральна, 284а<br>
-		ЄДРПОУ 37325141</span></h5>
-	</div>
-
-	<div id="map">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3277.5276434446655!2d39.13706727640322!3d49.532690038641476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1suk!2sua!4v1598273602402!5m2!1suk!2sua"  width=100% height="550" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-
-
-	</div>
-	<div id="map-overlay" class="text-left ">
-		<div class="container">
-			<h2><a href="tel:380661799362"><i class="fa fa-phone">&nbsp</i>+380661799362 </a> </h2>
-			<h2><a href="tel:380970336282"><i class="fa fa-phone">&nbsp</i>+380977036282 </a> </h2>
-			<h2><a href="tel:380646324765"><i class="fa fa-phone">&nbsp</i>+380646324765 </a> </h2>
-			<h3><a href="mailto:npjytlo@gmail.com"><i class="fa fa-envelope">&nbsp</i>npjytlo@gmail.com</a></h3>
-			
-		</div>
-	</div>
-	<!-- contact massage-->
-	<div class="contact-form">
+	</section>
+	<!--SERVICES AREA-->
+	<section id="service">
 		<div class="container">
 			<div class="row">
-				<form action="#">
-
-					<div class="col-sm-4">
-						<label for="usr">Ваше ім'я</label>
-						<input type="text" class="form-control" id="usr">
+				<div class="col-md-12  wow bounce">
+					<div class="section-heading text-center text-uppercase  wow bounceInUp">
+						<h2> <span>ПОСЛУГИ</span></h2>
 					</div>
-					<div class="col-sm-4">
-						<label for="email">Електронна адреса</label>
-						<input type="email" class="form-control" id="email">
-					</div>
-					<div class="col-sm-4">
-						<label for="number">Номер телефону</label>
-						<input type="number" class="form-control" id="number">
-					</div>
-					<div class="col-sm-12">
-						<label for="massage">Повідомлення</label>
-						<textarea class="form-control" rows="4" id="massage"></textarea>
-
-						<button type="submit" class="btn red-btn"><a href="mailto:npjytlo@gmail.com"> Надіслати лист</a></button>
-					</div>
-
-				</form>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- footer-area-->
-<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-2 text-center">
-				<a href=""><img src="img/npjytlo.png" alt="logo"></a>
-			</div>
-			<div class="col-sm-8">
-				<div class="footer-p text-center">
-					<p>©2020 | Новопсковська ОТГ</p>
-				</div>
-			</div>
-			<div class="col-sm-2">
-				<div class="footer-social text-center">
-					<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-facebook"></i></a>
-					<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-twitter"></i></a>
-					<a href="https://www.instagram.com/novopskov" target="_blank"><i class="fa fa-instagram"></i></a>
-					<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-google-plus"></i></a>
-					<a href=""><i class="fa fa-rss"></i></a>
 				</div>
 			</div>
 		</div>
-	</div>
-</footer>
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/isotope.2.2.2min.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/jquery.prettyPhoto.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<script src="js/main.js"></script>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-3  wow bounceIn">
+					<div class="single-item text-center">
+						<i class="fa fa-exclamation-triangle"></i>
+						<h4 class="text-uppercase">Поводження з відходами</h4>
+						<p>Вивезення побутових відходів</p>
+						<a href="#gallery" class="btn btn-red text-uppercase">Далі</a>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 wow bounceInUp">
+					<div class="single-item text-center">
+						<i class="fa fa-globe"></i>
+						<h4 class="text-uppercase">Роботи з благоустою</h4>
+
+						<p>Ландшафний дизайн.<br>Прибирання теритоій.</p>
+						<a href="#gallery" class="btn btn-red text-uppercase">Далі</a>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 wow pulse">
+					<div class="single-item text-center">
+						<i class="fa fa-building"></i>
+						<h4 class="text-uppercase">Будівельні роботи</h4>
+
+						<p>Всі види будівельних робіт</p>
+						<a href="#gallery" class="btn btn-red text-uppercase">Далі</a>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3 wow shake">
+					<div class="single-item text-center">
+						<i class="fa fa-truck"></i>
+						<h4 class="text-uppercase">Транспортні послуги</h4>
+
+						<p>Перевезення вантажів.</p>
+						<a href="#gallery" class="btn btn-red text-uppercase">Далі</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--our price area-->
+	<section id="price">
+		<div class="container">
+			<div class="section-heading text-center text-uppercase">
+				<h2> <span>Вартість послуг</span></h2>
+				<h3> <span>за одну машино-годину</span></h3>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="single-price text-center wow swing">
+						<div class="price-top">
+							<h3>АВТОГРЕЙДЕР<br>SINOMACH-713H</h3>
+							<i class="fa fa-clock-o"></i>
+
+							<h1><sup>&#8372;</sup>1057,56<sub>грн.</sub></h1>
+						</div>
+						<div class="price-bottom">
+							<p><img src="img/teh_greyder.PNG"></p>
+
+							<a href="#gallery" class="btn text-uppercase">Галерея</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="single-price text-center wow swing">
+						<div class="price-top">
+							<h3>ЕКСКАВАТОР<br>МТЗ-82.1</h3>
+							<i class="fa fa-clock-o"></i>
+
+							<h1><sup>&#8372;</sup>440,84<sub>грн.</sub></h1>
+						</div>
+						<div class="price-bottom">
+							<p><img src="img/teh_mtz_ex.png"></p>
+
+							<a href="#gallery" class="btn text-uppercase">Галерея</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="single-price text-center wow swing">
+						<div class="price-top">
+							<h3>ЕКСКАВАТОР-НАВАНТАЖУВАЧ<br>CUCUROVA-821</h3>
+							<i class="fa fa-clock-o"></i>
+
+							<h1><sup>&#8372;</sup>704,40<sub>грн.</sub></h1>
+						</div>
+						<div class="price-bottom">
+							<p>
+							<p><img src="img/teh_cukurova.png"></p>
+							</p>
+
+							<a href="#gallery" class="btn text-uppercase">Галерея</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="single-price text-center wow swing">
+						<div class="price-top">
+							<h3>НАВАНТАЖУВАЧ<br>
+								АМКОДОР-342С</h3>
+							<i class="fa fa-clock-o"></i>
+
+							<h1><sup>&#8372;</sup>853,29<sub>грн.</sub></h1>
+						</div>
+						<div class="price-bottom">
+							<p>
+							<p><img src="img/teh_amkodor.png"></p>
+							</p>
+
+							<a href="#gallery" class="btn text-uppercase">Галерея</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="single-price text-center wow swing">
+						<div class="price-top">
+							<h3>АВТОПІДЙОМНИК</h3>
+							<i class="fa fa-clock-o"></i>
+
+							<h1><sup>&#8372;</sup>446,03<sub>грн.</sub></h1>
+						</div>
+						<div class="price-bottom">
+							<p>
+							<p><img src="img/teh_pid.png"></p>
+							</p>
+
+							<a href="#gallery" class="btn text-uppercase">Галерея</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="single-price text-center wow swing">
+						<div class="price-top">
+							<h3>МАЗ-САМОСКИД</h3>
+							<i class="fa fa-clock-o"></i>
+
+							<h1><sup>&#8372;</sup>576,10<sub>грн.</sub></h1>
+						</div>
+						<div class="price-bottom">
+							<p>
+							<p><img src="img/teh_mazsam.png"></p>
+							</p>
+
+							<a href="#gallery" class="btn text-uppercase">Галерея</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--gallery area-->
+	<section id="gallery">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-10 col-sm-offset-1">
+					<div class="section-heading text-center text-uppercase  wow shake">
+						<h2> <span>Галерея</span></h2>
+
+						<p title="Не кожен, сьогодні, може побачити завтрішній день!">
+							<u><i>"Nobody can look present day at the day tomorrow!"</i></u>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+		<div class="gallery-btn text-center text-uppercase">
+			<a href="#" class="active btn btn-trans" data-filter="*">ВСІ ФОТО</a>
+			<a href="#" class="btn btn-trans" data-filter=".gardens">ПАРК</a>
+			<a href="#" class="btn btn-trans" data-filter=".pavement">ТРОТУАР</a>
+			<a href="#" class="btn btn-trans" data-filter=".quarantine">КАРАНТИН</a>
+			<a href="#" class="btn btn-trans" data-filter=".roads">РЕМОНТ ДОРІГ</a>
+			<a href="#" class="btn btn-trans" data-filter=".landscaping">БЛАГОУСТРІЙ</a>
+		</div>
+		<div class="container-fluid">
+			<div class="row no-gutter">
+				<div class="gellery-item text-center">
+					<div class="single-gl roads col-md-2 col-sm-3">
+						<img src="img/gl1.jpg" alt="">
+
+						<div class="gl-overlay">
+							<div class="caption">
+								<a href="img/gl1.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
+								<a href="#"><i class="fa fa-search"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="single-gl roads col-md-2 col-sm-3">
+						<img src="img/gl2.jpg" alt="">
+
+						<div class="gl-overlay">
+							<div class="caption">
+								<a href="img/gl2.jpg" data-gallery="prettyPhoto"><i class="fa fa-search"></i></a>
+								<a href="#"><i class="fa fa-expand"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="single-gl roads col-md-2 col-sm-3">
+						<img src="img/gl3.jpg" alt="">
+
+						<div class="gl-overlay">
+							<div class="caption">
+								<a href="img/gl3.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
+								<a href="#"><i class="fa fa-search"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="single-gl landscaping col-md-2  col-sm-3">
+						<img src="img/gl4.jpg" alt="">
+
+						<div class="gl-overlay">
+							<div class="caption">
+								<a href="img/gl4.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
+								<a href="#"><i class="fa fa-search"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="single-gl quarantine col-md-2 col-sm-3">
+						<img src="img/gl5.jpg" alt="">
+
+						<div class="gl-overlay">
+							<div class="caption">
+								<a href="img/gl5.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
+								<a href="#"><i class="fa fa-search"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="single-gl landscaping col-md-2 col-sm-3">
+						<img src="img/gl6.jpg" alt="">
+
+						<div class="gl-overlay">
+							<div class="caption">
+								<a href="img/gl6.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
+								<a href="#"><i class="fa fa-search"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="single-gl quarantine col-md-2 col-sm-3">
+						<img src="img/gl7.jpg" alt="">
+
+						<div class="gl-overlay">
+							<div class="caption">
+								<a href="img/gl7.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
+								<a href="#"><i class="fa fa-search"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="single-gl landscaping col-md-2 col-sm-3">
+						<img src="img/gl8.jpg" alt="">
+
+						<div class="gl-overlay">
+							<div class="caption">
+								<a href="img/gl8.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
+								<a href="#"><i class="fa fa-search"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="single-gl pavement col-md-2 col-sm-3">
+						<img src="img/gl9.jpg" alt="">
+
+						<div class="gl-overlay">
+							<div class="caption">
+								<a href="img/gl9.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
+								<a href="#"><i class="fa fa-search"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="single-gl gardens col-md-2 col-sm-3">
+						<img src="img/gl10.jpg" alt="">
+
+						<div class="gl-overlay">
+							<div class="caption">
+								<a href="img/gl10.jpg" data-gallery="prettyPhoto"><i class="fa fa-expand"></i></a>
+								<a href="#"><i class="fa fa-search"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!--team section-->
+	<section id="team">
+		<div class="container">
+			<div class="section-heading text-center text-uppercase wow  wow bounceInRight">
+				<h2> <span>Керівники</span></h2>
+			</div>
+			<div class="row  wow bounceInLeft">
+				<div class="col-sm-6 col-md-3">
+					<div class="single-team">
+						<img src="img/team1.jpg" alt="">
+
+						<h3>Директор</h3>
+
+						<p>Деревянко Костянтин Степанович</p>
+
+						<div class="member-social-icon text-center">
+							<a href="https://www.facebook.com/npjytlo" target="_blank"><i
+									class="fa fa-facebook"></i></a>
+							<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.facebook.com/npjytlo" target="_blank"><i
+									class="fa fa-linkedin"></i></a>
+							<a href="https://www.facebook.com/npjytlo" target="_blank"><i
+									class="fa fa-google-plus"></i></a>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="single-team">
+						<img src="img/team2.jpg" alt="">
+
+						<h3>Головний Інженер</h3>
+
+						<p>Шпак Ярослав Миколайович</p>
+
+						<div class="member-social-icon text-center">
+							<a href="https://www.facebook.com/npjytlo" target="_blank"><i
+									class="fa fa-facebook"></i></a>
+							<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.facebook.com/npjytlo" target="_blank"><i
+									class="fa fa-linkedin"></i></a>
+							<a href="https://www.facebook.com/npjytlo" target="_blank"><i
+									class="fa fa-google-plus"></i></a>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="single-team">
+						<img src="img/team3.jpg" alt="">
+
+						<h3>Головний бухгалтер</h3>
+
+						<p>Янченко Ольга Петрівна</p>
+
+						<div class="member-social-icon text-center">
+							<a href="https://www.facebook.com/npjytlo" target="_blank"><i
+									class="fa fa-facebook"></i></a>
+							<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.facebook.com/npjytlo" target="_blank"><i
+									class="fa fa-linkedin"></i></a>
+							<a href="https://www.facebook.com/npjytlo" target="_blank"><i
+									class="fa fa-google-plus"></i></a>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="single-team">
+						<img src="img/team4.jpg" alt="">
+
+						<h3>Майстер</h3>
+
+						<p>Мірошниченко Ігор Степанович</p>
+
+						<div class="member-social-icon text-center">
+							<a href="https://www.facebook.com/npjytlo" target="_blank"><i
+									class="fa fa-facebook"></i></a>
+							<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.facebook.com/npjytlo" target="_blank"><i
+									class="fa fa-linkedin"></i></a>
+							<a href="https://www.facebook.com/npjytlo" target="_blank"><i
+									class="fa fa-google-plus"></i></a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<!--contact heading-->
+	<section id="contact">
+		<div class="section-heading contact-heading text-center text-uppercase">
+			<h2><span>Контакти</span></h2>
+			<h5><span>Україна, Луганська обл, смт.Новопсков, вул.Магістральна, 284а<br>
+					ЄДРПОУ 37325141</span></h5>
+		</div>
+
+		<div id="map">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3277.5276434446655!2d39.13706727640322!3d49.532690038641476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1suk!2sua!4v1598273602402!5m2!1suk!2sua"
+				width=100% height="550" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+
+
+		</div>
+		<div id="map-overlay" class="text-left ">
+			<div class="container">
+				<h2><a href="tel:380661799362"><i class="fa fa-phone">&nbsp</i>+380661799362 </a> </h2>
+				<h2><a href="tel:380970336282"><i class="fa fa-phone">&nbsp</i>+380977036282 </a> </h2>
+				<h2><a href="tel:380646324765"><i class="fa fa-phone">&nbsp</i>+380646324765 </a> </h2>
+				<h3><a href="mailto:npjytlo@gmail.com"><i class="fa fa-envelope">&nbsp</i>npjytlo@gmail.com</a></h3>
+
+			</div>
+		</div>
+		<!-- contact massage-->
+		<div class="contact-form">
+			<div class="container">
+				<div class="row">
+					<form action="#">
+
+						<div class="col-sm-4">
+							<label for="usr">Ваше ім'я</label>
+							<input type="text" class="form-control" id="usr">
+						</div>
+						<div class="col-sm-4">
+							<label for="email">Електронна адреса</label>
+							<input type="email" class="form-control" id="email">
+						</div>
+						<div class="col-sm-4">
+							<label for="number">Номер телефону</label>
+							<input type="number" class="form-control" id="number">
+						</div>
+						<div class="col-sm-12">
+							<label for="massage">Повідомлення</label>
+							<textarea class="form-control" rows="4" id="massage"></textarea>
+
+							<button type="submit" class="btn red-btn"><a href="mailto:npjytlo@gmail.com"> Надіслати
+									лист</a></button>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- footer-area-->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2 text-center">
+					<a href=""><img src="img/npjytlo.png" alt="logo"></a>
+				</div>
+				<div class="col-sm-8">
+					<div class="footer-p text-center">
+						<p>©2020 | Новопсковська ОТГ</p>
+					</div>
+				</div>
+				<div class="col-sm-2">
+					<div class="footer-social text-center">
+						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-facebook"></i></a>
+						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-twitter"></i></a>
+						<a href="https://www.instagram.com/novopskov" target="_blank"><i
+								class="fa fa-instagram"></i></a>
+						<a href="https://www.facebook.com/npjytlo" target="_blank"><i class="fa fa-google-plus"></i></a>
+						<a href=""><i class="fa fa-rss"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/isotope.2.2.2min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
+
 </html>
